@@ -1,3 +1,12 @@
-* {
-    background-color: aqua;
+
+
+:root {
+    /* colors */
+    --highlight-primary-color: #ff9500; /* orange */
+    --highlight-secondary-color: #f4275e; /* coral */
+    --highligt-tertiary-color: #cb6be6; /* lila */  
+    --primary-color: #000000; /* black */
+    --secondary-color: #fcfcfc; /* white */
+    --tertiary-color: #5d2f8e; /* purple */
+    /* fonts */
 }
