@@ -34,9 +34,20 @@
 header {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
 }
 #static-links {
     list-style-type: none;
+}
+
+nav ul {
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
 }
 
 nav a {
@@ -44,7 +55,9 @@ nav a {
     text-transform: uppercase;
     color: var(--secondary-color);
     text-decoration: none;
+    padding: 1rem;
 }
+
 
 
 
