@@ -30,3 +30,21 @@
     font-family: var(--secondary-font);
 }
 
+/* Navigation */
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+#static-links {
+    list-style-type: none;
+}
+
+nav a {
+    font-family: var(--secondary-font);
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+
+
