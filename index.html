@@ -23,14 +23,36 @@
 
 <body>
 
-  <!-- Navigation -->
-  <nav></nav>
+  <!-- Header -->
+  <header>
+    <div class="static-navbar">
+      <a href="index.html">
+        <img id="navLogo" src="assets/images/logo.png" alt="Diana Vizvary">
+      </a>
+    </div>
+
+    <!-- Nav Section -->
+    <nav class="links">
+      <!-- to toggle btw. classes -->
+      <ul id="static-links">
+        <li><a class="hideOnMobile" href="about.html">About</a></li>  
+        <li><a class="hideOnMobile" href="coaching.html">Coaching</a></li>
+        <li><a class="hideOnMobile" href="book.html">Book</a></li>
+        <li><a class="hideOnMobile" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+      <!-- Toggle Button -->
+      <div class="toggle" id="toggle-sidebar-btn">
+          <img class="bx bx-chevrons-down" id="menuIcon" onclick="toggleSidebar()">
+      </div>
+  </header>
 
   <!-- Main Section -->
   <main>
 
-    <!-- Header -->
-    <section id="header"></section>
+    <!-- Hero -->
+    <section id="hero"></section>
 
     <!-- Services -->
     <section id="services"></section>
