@@ -32,12 +32,19 @@
 
 /* Navigation */
 header {
+    padding: 1rem;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     display: flex;
     flex-flow: row;
     justify-content: space-between;
 }
+
+#logo, 
+#menu-icon {
+    height: 6rem;
+}
+
 #static-links {
     list-style-type: none;
 }
@@ -57,6 +64,8 @@ nav a {
     text-decoration: none;
     padding: 1rem;
 }
+
+
 
 
 
