@@ -80,7 +80,7 @@ nav ul {
 
 /* nav not visible on small and md devices */
 #links {
-    display: block;
+    display: none;
     position: absolute;
     top: 100%; /* Place below the header */
     left: 0; /* Align to the left edge */

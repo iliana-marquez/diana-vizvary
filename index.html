@@ -38,17 +38,16 @@
       <nav id="links">
         <!-- to toggle btw. classes -->
         <ul class="static">
-          <li><a class="hideOnMobile" class="about-link-active" href="about.html">About</a></li>
-          <li><a class="hideOnMobile" class="coaching-link-active" href="coaching.html">Coaching</a></li>
-          <li><a class="hideOnMobile" class="book-link-active" href="book.html">Book</a></li>
-          <li><a class="hideOnMobile" class="contact-link-active" href="contact.html">Contact</a></li>
+          <li><a class="about-link-active" href="#">About</a></li>
+          <li><a class="coaching-link-active" href="#">Coaching</a></li>
+          <li><a class="book-link-active" href="#">Book</a></li>
+          <li><a class="contact-link-active" href="#">Contact</a></li>
         </ul>
       </nav>
 
-
       <!-- Toggle Button -->
       <div class="toggle" id="toggle-sidebar-btn">
-        <img src="assets/images/asterisk-icon.png" id="menu-icon" onclick="toggleSidebar()">
+        <img src="assets/images/burger-icon.png" id="menu-icon" onclick="toggleSidebar()">
       </div>
     </div>
 
@@ -85,26 +84,26 @@
     function toggleSidebar() {
 
       let menuIcon = document.getElementById('menu-icon');
+      let links = document.getElementById('links');
 
-      function toggleIcon() {
-        let menuIcon = document.getElementById('menu-icon');
-
-        if (menuIcon.src.includes('assets/images/burger-icon.png')) {
-          menuIcon.src = 'assets/images/asterisk-icon.png';
-        } else {
-          menuIcon.src = 'assets/images/burger-icon.png';
-        }
+      if (menuIcon.src.includes('assets/images/burger-icon.png')) {
+        menuIcon.src = 'assets/images/asterisk-icon.png';
+        links.style.display = 'block';
+      } else {
+        menuIcon.src = 'assets/images/burger-icon.png';
+        links.style.display = 'none';
       }
 
-      toggleIcon();
+      let linkItems = links.querySelectorAll('a');
 
-      let links = document.getElementById('links');
-      links.classList.toggle('open');
-
-
-
-      
+      linkItems.forEach(link => {
+        link.addEventListener('click', function () {
+          links.style.display = 'none'; // Hide the sidebar after a link is clicked
+          menuIcon.src = 'assets/images/burger-icon.png'; // Reset the icon to burger
+        });
+      });
     }
+
   </script>
 
 </body>
