@@ -79,7 +79,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
   </script>
-  <!-- Script for the navbar menu toggle -->
+
+  <!-- JS Script for the navbar menu toggle dropdown -->
   <script>
     function toggleSidebar() {
 
@@ -88,22 +89,22 @@
 
       if (menuIcon.src.includes('assets/images/burger-icon.png')) {
         menuIcon.src = 'assets/images/asterisk-icon.png';
-        links.style.display = 'block';
+        links.classList.add('show');
       } else {
         menuIcon.src = 'assets/images/burger-icon.png';
         links.style.display = 'none';
+        links.classList.remove('show');
       }
 
       let linkItems = links.querySelectorAll('a');
 
       linkItems.forEach(link => {
         link.addEventListener('click', function () {
-          links.style.display = 'none'; // Hide the sidebar after a link is clicked
+          links.classList.remove('show'); // Hide the sidebar after a link is clicked
           menuIcon.src = 'assets/images/burger-icon.png'; // Reset the icon to burger
         });
       });
     }
-
   </script>
 
 </body>

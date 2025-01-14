@@ -90,6 +90,10 @@ nav ul {
     height: 100vh;
 }
 
+#links.show {
+    display: block;
+}
+
 nav ul {
     display: flex;
     flex-flow: column;
@@ -169,7 +173,7 @@ nav ul {
         display: flex;
         flex-flow: row;
         justify-content: flex-end;
-        padding-bottom: 0rem;
+        padding-bottom: auto;
     }
 }
 
