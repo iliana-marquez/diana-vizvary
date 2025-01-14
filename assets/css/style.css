@@ -2,16 +2,22 @@
 
 :root {
     /* colors */
-    --highlight-primary-color: #ff9500; /* orange */
-    --highlight-secondary-color: #f4275e; /* coral */
-    --highligt-tertiary-color: #cb6be6; /* lila */  
-    --primary-color: #000000; /* black */
-    --secondary-color: #fcfcfc; /* white */
-    --tertiary-color: #5d2f8e; /* purple */
+    --highlight-primary-color: #ff9500;
+    /* orange */
+    --highlight-secondary-color: #f4275e;
+    /* coral */
+    --highligt-tertiary-color: #cb6be6;
+    /* lila */
+    --primary-color: #000000;
+    /* black */
+    --secondary-color: #fcfcfc;
+    /* white */
+    --tertiary-color: #5d2f8e;
+    /* purple */
     /* fonts */
-    --primary-font: 'Mr+Dafoe', cursive; 
-    --secondary-font: 'Oswald' , serif;
-    --tertiary-font: 'Poppins' sans-serif;
+    --primary-font: 'Mr+Dafoe', cursive;
+    --secondary-font: 'Oswald', serif;
+    --tertiary-font: 'Poppins'sans-serif;
 }
 
 /* General Styles */
@@ -32,6 +38,11 @@
 
 /* Navigation */
 header {
+    position: fixed;
+    width: 100%;
+}
+
+.nav-container {
     padding: 1rem;
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -39,27 +50,70 @@ header {
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 
-#static-links {
-    list-style-type: none;
+.nav-container {
+    position: relative;
 }
 
- /* Navigation Section */
- #links {
-    display: none;
-  }
+/* Navigation Section */
+nav li {
+    list-style: none;
+    text-align: left;
+}
+
+nav a {
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: var(--secondary-font);
+    font-size: 1.25rem;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav not visible on small and md devices */
+#links {
+    display: block;
+    position: absolute;
+    top: 100%; /* Place below the header */
+    left: 0; /* Align to the left edge */
+    width: 100%; /* Span the full width */
+    background-color: var(--primary-color); /* Match the header background */
+    z-index: 1000; /* Ensure it sits above other elements */
+    height: 100vh;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    background-color: var(--primary-color);
+    justify-content: space-between;
+    align-items: end;
+    padding: 2rem;
+    padding-left: 4rem;
+
+}
+
 
 
 
 /* Media queries */
 /* XSmall devices (mobile, 320px and up*/
 @media screen and (min-width: 320px) {
-    
+
     /* Navigation */
-    #logo{
+    #logo {
         height: 2.5rem;
     }
+
     #menu-icon {
         height: 1.5rem;
     }
@@ -67,12 +121,12 @@ header {
 
 /* Small devices (mobile, 576px and up*/
 @media screen and (min-width: 576px) {
-    
+
     /* Navigation */
     #logo {
         height: 3rem;
     }
-  
+
     #menu-icon {
         height: 2rem;
     }
@@ -92,58 +146,35 @@ header {
     #menu-icon {
         height: 2.5rem;
     }
-    
-  
+
+
 }
 
 /* Large devices (small laptops, 992px and up*/
 @media screen and (min-width: 992px) {
 
-   /* Navigation */
-   #toggle-sidebar-btn {
-     display: none;
-   }
+    /* Navigation */
+    #toggle-sidebar-btn {
+        display: none;
+    }
 
+    #links {
+        display: block;
+        position: static;
+        align-items: center;
+        height: auto;
+    }
 
-   #links {
-    display: block;
-  }
-
-nav ul {
-    margin:0;
-    padding: 0;
-    display: flex;
-    flex-flow: row;
-    justify-content: flex-end;
-    
-}
-
-nav a {
-    font-family: var(--secondary-font);
-    font-size: 1.5rem;
-    font-weight: 200;
-    text-transform: uppercase;
-    color: var(--secondary-color);
-    text-decoration: none;
-    padding: 1rem;
-}
-
-
-
-
+    nav ul {
+        display: flex;
+        flex-flow: row;
+        justify-content: flex-end;
+        padding-bottom: 0rem;
+    }
 }
 
 /* Extra large devices (laptops, 1200px and up*/
-@media screen and (min-width: 1200px) {
-   
-}
+@media screen and (min-width: 1200px) {}
+
 /* Extra large devices (laptops, 1400px and up*/
-@media screen and (min-width: 1400px) {
-
-}
-
-
-
-
-
-
+@media screen and (min-width: 1400px) {}

@@ -25,26 +25,31 @@
 
   <!-- Header -->
   <header>
-    <div class="static-navbar">
-      <a href="index.html">
-        <img id="logo" src="assets/images/logo.png" alt="Diana Vizvary">
-      </a>
-    </div>
 
-    <!-- Nav Section -->
-    <nav id="links">
-      <!-- to toggle btw. classes -->
-      <ul id="static-links">
-        <li><a class="hideOnMobile" class="about-link-active" href="about.html">About</a></li>
-        <li><a class="hideOnMobile" class="coaching-link-active" href="coaching.html">Coaching</a></li>
-        <li><a class="hideOnMobile" class="book-link-active" href="book.html">Book</a></li>
-        <li><a class="hideOnMobile" class="contact-link-active" href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="nav-container">
+      <!-- Logo / Home Link -->
+      <div class="static-navbar">
+        <a href="index.html">
+          <img id="logo" src="assets/images/logo.png" alt="Diana Vizvary">
+        </a>
+      </div>
 
-    <!-- Toggle Button -->
-    <div class="toggle" id="toggle-sidebar-btn">
-      <img src="assets/images/asterisk-icon.png" id="menu-icon" onclick="toggleSidebar()">
+      <!-- Nav Section -->
+      <nav id="links">
+        <!-- to toggle btw. classes -->
+        <ul class="static">
+          <li><a class="hideOnMobile" class="about-link-active" href="about.html">About</a></li>
+          <li><a class="hideOnMobile" class="coaching-link-active" href="coaching.html">Coaching</a></li>
+          <li><a class="hideOnMobile" class="book-link-active" href="book.html">Book</a></li>
+          <li><a class="hideOnMobile" class="contact-link-active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+
+      <!-- Toggle Button -->
+      <div class="toggle" id="toggle-sidebar-btn">
+        <img src="assets/images/asterisk-icon.png" id="menu-icon" onclick="toggleSidebar()">
+      </div>
     </div>
 
   </header>
@@ -92,6 +97,12 @@
       }
 
       toggleIcon();
+
+      let links = document.getElementById('links');
+      links.classList.toggle('open');
+
+
+
       
     }
   </script>
