@@ -32,20 +32,21 @@
     </div>
 
     <!-- Nav Section -->
-    <nav class="links">
+    <nav id="links">
       <!-- to toggle btw. classes -->
       <ul id="static-links">
-        <li><a class="hideOnMobile" class="about-link-active" href="about.html">About</a></li>  
+        <li><a class="hideOnMobile" class="about-link-active" href="about.html">About</a></li>
         <li><a class="hideOnMobile" class="coaching-link-active" href="coaching.html">Coaching</a></li>
         <li><a class="hideOnMobile" class="book-link-active" href="book.html">Book</a></li>
         <li><a class="hideOnMobile" class="contact-link-active" href="contact.html">Contact</a></li>
       </ul>
     </nav>
 
-      <!-- Toggle Button -->
-      <div class="toggle" id="toggle-sidebar-btn">
-          <img src="assets/images/burger-icon.png" id="menu-icon" onclick="toggleSidebar()">
-      </div> 
+    <!-- Toggle Button -->
+    <div class="toggle" id="toggle-sidebar-btn">
+      <img src="assets/images/asterisk-icon.png" id="menu-icon" onclick="toggleSidebar()">
+    </div>
+
   </header>
 
   <!-- Main Section -->
@@ -73,6 +74,26 @@
   <!-- Bootstrap JS Script-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+  </script>
+  <!-- Script for the navbar menu toggle -->
+  <script>
+    function toggleSidebar() {
+
+      let menuIcon = document.getElementById('menu-icon');
+
+      function toggleIcon() {
+        let menuIcon = document.getElementById('menu-icon');
+
+        if (menuIcon.src.includes('assets/images/burger-icon.png')) {
+          menuIcon.src = 'assets/images/asterisk-icon.png';
+        } else {
+          menuIcon.src = 'assets/images/burger-icon.png';
+        }
+      }
+
+      toggleIcon();
+      
+    }
   </script>
 
 </body>
