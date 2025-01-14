@@ -50,7 +50,7 @@ header {
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .nav-container {
@@ -81,11 +81,16 @@ nav ul {
 /* nav not visible on small and md devices */
 #links {
     position: absolute;
-    top: 100%; /* Place below the header */
-    left: 0; /* Align to the left edge */
-    width: 100%; /* Span the full width */
-    background-color: var(--primary-color); /* Match the header background */
-    z-index: 1000; /* Ensure it sits above other elements */
+    top: 100%;
+    /* Place below the header */
+    left: 0;
+    /* Align to the left edge */
+    width: 100%;
+    /* Span the full width */
+    background-color: var(--primary-color);
+    /* Match the header background */
+    z-index: 1000;
+    /* Ensure it sits above other elements */
     height: 100vh;
     display: none;
 }
@@ -103,13 +108,19 @@ nav ul {
     align-items: end;
     padding: 2rem;
     padding-left: 4rem;
+}
 
+/* Main */
+
+main {
+    padding-top: 72px;
 }
 
 
 
 
 /* Media queries */
+
 /* XSmall devices (mobile, 320px and up*/
 @media screen and (min-width: 320px) {
 
@@ -134,6 +145,14 @@ nav ul {
     #menu-icon {
         height: 2rem;
     }
+
+    /* Main */
+
+    main {
+        padding-top: 80px;
+    }
+
+
 }
 
 
@@ -149,6 +168,12 @@ nav ul {
 
     #menu-icon {
         height: 2.5rem;
+    }
+
+    /* Main */
+
+    main {
+        padding-top: 104px;
     }
 
 
@@ -175,7 +200,16 @@ nav ul {
         justify-content: flex-end;
         padding-bottom: auto;
     }
+
+    /* Main */
+
+    main {
+        padding-top: 126px;
+    }
+
 }
+
+
 
 /* Extra large devices (laptops, 1200px and up*/
 @media screen and (min-width: 1200px) {}
