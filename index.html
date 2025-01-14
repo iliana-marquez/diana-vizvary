@@ -47,38 +47,82 @@
 
       <!-- Toggle Button -->
       <div class="toggle" id="toggle-menubar-btn">
-        <img src="assets/images/burger-icon.png" id="menu-icon" onclick="toggleMenubar()" alt="Toggle button to display the dropdown menu">
+        <img src="assets/images/burger-icon.png" id="menu-icon" onclick="toggleMenubar()"
+          alt="Toggle button to display the dropdown menu">
       </div>
     </div>
 
   </header>
 
-  <!-- Main Section -->
-  <main class="pt-6">
-    <!-- Hero -->
-    <section id="hero">
+  <!-- main element to hold all key sections of the home page. It's not part of the grid structure -->
+  <main>
+
+    <!-- Hero / Intro -->
+    <section class="container">
+      <div class="row">
+        <div class="col-12 col-xl-6">Diana's Intro text section</div>
+        <div class="col-12 col-xl-6">Dianas Foto</div>
+      </div>
     </section>
 
     <!-- Services -->
-    <section id="services"></section>
+    <section class="container">
+      <div class="row">
+        <div class="col-12">Services Header</div>
+        <div class="col-12 col-md-6 col-xl-3">Coach card</div>
+        <div class="col-12 col-md-6 col-xl-3">Pianist card</div>
+        <div class="col-12 col-md-6 col-xl-3">Singer card</div>
+        <div class="col-12 col-md-6 col-xl-3">Speaker card</div>
+      </div>
+    </section>
 
-    <!-- Mission -->
-    <section id="mission"></section>
+    <!-- Culture Management -->
+    <section class="container">
+      <div class="row">
+        <div class="col-12 col-xl-6">Diana's Intro text section</div>
+        <div class="col-12 col-xl-6">Dianas Foto</div>
+      </div>
+    </section>
 
   </main>
 
+  <!--  Footer / contact section -->
 
-  <!-- Footer -->
-  <footer class="container mt-auto">
-    <div class="d-flex flex-column">
-        <div class="social-links my-4">
-          <a href="index.html" target="_blank" aria-label="Visit Diana's youtube page, opens in a new tab" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
-          <a href="index.html" target="_blank" aria-label="Visit Diana's instagram page, opens in a new tab" rel="noopener"><i class="fa-brands fa-square-instagram"></i></a>
-          <a href="index.html" target="_blank" aria-label="Visit Diana's facebook page, opens in a new tab" rel="noopener"><i class="fa-brands fa-square-facebook"></i></a>
-          <a href="index.html" target="_blank" aria-label="Visit Diana's twitter page, opens in a new tab" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
-         </div>
+  <!-- class to ensure bottom position of the footer -->
+  <footer class="mt-auto">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6">Links</div>
+        <!-- Socials -->
+        <div class="col-12 col-md-6">Social links
+          <a href="index.html" target="_blank" aria-label="Visit Diana's youtube page, opens in a new tab"
+            rel="noopener"><i class="fa-brands fa-youtube"></i></a>
+          <a href="index.html" target="_blank" aria-label="Visit Diana's instagram page, opens in a new tab"
+            rel="noopener"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="index.html" target="_blank" aria-label="Visit Diana's facebook page, opens in a new tab"
+            rel="noopener"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="index.html" target="_blank" aria-label="Visit Diana's twitter page, opens in a new tab"
+            rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <!-- Navlinks times -->
+        <div class="col-12 col-md-6">
+          <a href="index.html" target="_blank" aria-label="Visit Diana's coaching page, opens in a new tab"
+            rel="noopener">About</a>
+          <a href="index.html" target="_blank" aria-label="Visit Diana's about page, opens in a new tab"
+            rel="noopener">Coaching</i></a>
+          <a href="index.html" target="_blank" aria-label="Visit Diana's media page, opens in a new tab"
+            rel="noopener">Media</i></a>
+          <a href="index.html" target="_blank" aria-label="Register for Diana's Newsletter, opens in a new tab"
+            rel="noopener">Newsletter</a>
+        </div>
+        <div class="col-12 col-md-6">Contact Info</div>
+        <div class="col-12 col-md-6">Contact Info</div>
+        <div class="col-12 col-md-6">Contact Form Link</div>
+      </div>
+    </div>
     </div>
   </footer>
+
 
 
 
@@ -104,9 +148,6 @@
         menuIcon.src = 'assets/images/burger-icon.png';
         links.classList.remove('show');
       }
-
-      console.log(links.classList);
-      
 
       let linkItems = links.querySelectorAll('a');
 
