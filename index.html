@@ -46,8 +46,8 @@
       </nav>
 
       <!-- Toggle Button -->
-      <div class="toggle" id="toggle-sidebar-btn">
-        <img src="assets/images/burger-icon.png" id="menu-icon" onclick="toggleSidebar()">
+      <div class="toggle" id="toggle-menubar-btn">
+        <img src="assets/images/burger-icon.png" id="menu-icon" onclick="toggleMenubar()">
       </div>
     </div>
 
@@ -82,7 +82,7 @@
 
   <!-- JS Script for the navbar menu toggle dropdown -->
   <script>
-    function toggleSidebar() {
+    function toggleMenubar() {
 
       let menuIcon = document.getElementById('menu-icon');
       let links = document.getElementById('links');
@@ -92,9 +92,11 @@
         links.classList.add('show');
       } else {
         menuIcon.src = 'assets/images/burger-icon.png';
-        links.style.display = 'none';
         links.classList.remove('show');
       }
+
+      console.log(links.classList);
+      
 
       let linkItems = links.querySelectorAll('a');
 

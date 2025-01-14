@@ -80,7 +80,6 @@ nav ul {
 
 /* nav not visible on small and md devices */
 #links {
-    display: none;
     position: absolute;
     top: 100%; /* Place below the header */
     left: 0; /* Align to the left edge */
@@ -88,6 +87,7 @@ nav ul {
     background-color: var(--primary-color); /* Match the header background */
     z-index: 1000; /* Ensure it sits above other elements */
     height: 100vh;
+    display: none;
 }
 
 #links.show {
@@ -158,7 +158,7 @@ nav ul {
 @media screen and (min-width: 992px) {
 
     /* Navigation */
-    #toggle-sidebar-btn {
+    #toggle-menubar-btn {
         display: none;
     }
 
