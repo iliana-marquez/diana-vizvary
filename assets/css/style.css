@@ -220,7 +220,22 @@ main {
     width: 100%;
 }
 
+/* Services Section */
+#services {
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+}
 
+
+/* Relevant-Info Section */
+
+
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
 
 
 
