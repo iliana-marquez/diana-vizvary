@@ -6,7 +6,7 @@
     /* orange */
     --highlight-secondary-color: #f4275e;
     /* coral */
-    --highligt-tertiary-color: #cb6be6;
+    --highlight-tertiary-color: #cb6be6;
     /* lila */
     --primary-color: #000000;
     /* black */
@@ -17,7 +17,7 @@
     /* fonts */
     --primary-font: 'Mr+Dafoe', cursive;
     --secondary-font: 'Oswald', serif;
-    --tertiary-font: 'Poppins'sans-serif;
+    --tertiary-font: 'Poppins', sans-serif;
 }
 
 /* General Styles */
@@ -34,7 +34,65 @@
 
 .block-title {
     font-family: var(--secondary-font);
+    text-transform: uppercase;
+    font-weight: 300;
 }
+
+/* Buttons Sytle */
+.custom-btn {
+    font-family: var(--secondary-font);
+    font-weight: 450;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    padding-bottom: .3rem;
+    padding-top: .3rem;
+    text-decoration: none;
+    width: 150px; /* check on mobile! */
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-hl-primary-color {
+    background-color: transparent;
+    border: var(--highlight-primary-color) solid 3px;
+    color: var(--highlight-primary-color);
+}
+
+.btn-hl-primary-color {
+    background-color: transparent;
+    border: var(--highlight-primary-color) solid 3px;
+    color: var(--highlight-primary-color);
+}
+
+.btn-hl-secondary-color {
+    background-color: transparent;
+    border: var(--highlight-secondary-color) solid 3px;
+    color: var(--highlight-secondary-color);
+}
+.btn-hl-tertiary-color {
+    background-color: transparent;
+    border: var(--highlight-tertiary-color) solid 3px;
+    color: var(--highlight-tertiary-color);
+}
+
+.btn-primary-color {
+    background-color: transparent;
+    border: var(--primary-color) solid 3px;
+    color: var(--primary-color);
+}
+
+.btn-secondary-color {
+    background-color: transparent;
+    border: var(--secondary-color) solid 3px;
+    color: var(--secondary-color);    
+}
+
+.btn-tertiary-color {
+    background-color: transparent;
+    border: var(--tertiary-color) solid 3px;
+    color: var(--tertiary-color);    
+}
+
 
 /* Navigation */
 header {
@@ -116,6 +174,11 @@ main {
     padding-top: 72px;
 }
 
+/* HERO Section */
+#hero {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
 
 
 
