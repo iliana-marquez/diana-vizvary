@@ -118,6 +118,12 @@
     color: var(--primary-color);
 }
 
+.btn-primary-color:hover {
+    background-color: var(--primary-color);
+    border: var(--primary-color) solid 3px;
+    color: var(--secondary-color);
+}
+
 .btn-secondary-color {
     background-color: transparent;
     border: var(--secondary-color) solid 3px;
