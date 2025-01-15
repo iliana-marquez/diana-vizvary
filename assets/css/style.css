@@ -42,6 +42,7 @@
 .hl-primary-color-title {
     color: var(--highlight-primary-color);
 }
+
 .hl-secondary-color-title {
     color: var(--highlight-secondary-color);
 }
@@ -53,6 +54,7 @@
 .tertiary-color-title {
     color: var(--tertiary-color);
 }
+
 .secondary-color-title {
     color: var(--secondary-color);
 }
@@ -68,7 +70,8 @@
     padding-bottom: .3rem;
     padding-top: .3rem;
     text-decoration: none;
-    width: 150px; /* check on mobile! */
+    width: 150px;
+    /* check on mobile! */
     display: inline-block;
     text-align: center;
 }
@@ -127,19 +130,19 @@
 .btn-secondary-color {
     background-color: transparent;
     border: var(--secondary-color) solid 3px;
-    color: var(--secondary-color);    
+    color: var(--secondary-color);
 }
 
 .btn-secondary-color:hover {
     background-color: var(--secondary-color);
     border: var(--secondary-color) solid 3px;
-    color: var(--primary-color);    
+    color: var(--primary-color);
 }
 
 .btn-tertiary-color {
     background-color: transparent;
     border: var(--tertiary-color) solid 3px;
-    color: var(--tertiary-color);    
+    color: var(--tertiary-color);
 }
 
 
@@ -170,8 +173,8 @@ nav li {
     text-align: left;
 }
 
-nav a, 
-footer * a  {
+nav a,
+footer * a {
     padding: 0.5rem;
     text-decoration: none;
     color: var(--secondary-color);
@@ -235,6 +238,7 @@ main {
 #hero-intro {
     padding: 1rem 1rem 1rem 1rem;
 }
+
 #hero-image {
     background: url('../images/diana-hero-pic-homepage.png') no-repeat bottom center / contain;
     height: 425px;
@@ -247,11 +251,6 @@ main {
     color: var(--secondary-color);
 }
 
- /* Sevices Section */
- #services .custom-row {
-    max-width: 85%;
-}
-
 #services .custom-card {
     background-color: var(--primary-color);
 }
@@ -262,7 +261,7 @@ main {
 }
 
 #card-image-coach {
-    background: url('../images/diana_coach_session_2.jpg') no-repeat center / cover ;
+    background: url('../images/diana_coach_session_2.jpg') no-repeat center / cover;
     height: 300px;
     /* border-image: 1 fill linear-gradient( rgba(255, 255, 255, 00), rgba(255, 255, 255, 00), rgba(255, 255, 255, 00), rgba(255, 255, 255, 00),rgba(36, 37, 37, 0.5), rgba(36, 37, 42, 0.8), rgba(36, 37, 42, 1)); */
 }
@@ -309,7 +308,7 @@ footer #nav-links a:hover {
     color: var(--highlight-secondary-color);
 }
 
-footer #socials{
+footer #socials {
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -402,7 +401,7 @@ footer #address i {
     #hero-image {
         height: 335px;
     }
- 
+
 
     /* Footer */
     footer #address,
@@ -410,11 +409,11 @@ footer #address i {
         justify-content: center;
     }
 
+    /* Sevices Section */
     #services .card-content p {
-        min-height: 120px;
+        min-height: 130px;
         padding-bottom: 0;
         margin-bottom: 0;
-    
     }
 
 }
@@ -454,10 +453,13 @@ footer #address i {
 
     /* Services Section */
     #services .card-content p {
-        min-height: 110px;
+        min-height: 130px;
         padding-bottom: 0;
         margin-bottom: 0;
-    
+    }
+
+    #services .custom-row {
+        max-width: 80%;
     }
 
 }
@@ -468,4 +470,13 @@ footer #address i {
 @media screen and (min-width: 1200px) {}
 
 /* Extra large devices (laptops, 1400px and up*/
-@media screen and (min-width: 1400px) {}
+@media screen and (min-width: 1400px) {
+    /* Main */
+    /* Services Section */
+    #services .card-content p {
+        min-height: 100px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+}
