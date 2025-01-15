@@ -150,7 +150,8 @@ nav li {
     text-align: left;
 }
 
-nav a {
+nav a, 
+footer * a  {
     padding: 0.5rem;
     text-decoration: none;
     color: var(--secondary-color);
@@ -232,9 +233,51 @@ main {
 
 
 /* Footer */
-footer {
+footer * {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    font-family: var(--secondary-font);
+}
+
+#socials i {
+    font-size: 2rem;
+    transition: 0.2s ease-in-out;
+}
+
+#nav-links a {
+    font-size: 1.25rem;
+    transition: 0.2s ease-in-out;
+}
+
+footer #socials i:hover,
+footer #nav-links a:hover {
+    color: var(--highlight-secondary-color);
+}
+
+footer #socials{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer #address {
+    display: flex;
+    justify-content: start;
+}
+
+footer #contact {
+    display: flex;
+    justify-content: end;
+}
+
+footer #nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer #address i {
+    color: var(--highlight-secondary-color);
+    padding-right: 1rem;
 }
 
 
@@ -303,6 +346,12 @@ footer {
 
     #hero-image {
         height: 335px;
+    }
+
+    /* Footer */
+    footer #address,
+    footer #contact {
+        justify-content: center;
     }
 
 }
