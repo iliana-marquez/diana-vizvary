@@ -211,6 +211,9 @@ main {
     padding-bottom: 0;
 }
 
+#hero-intro {
+    padding: 1rem 0 1rem 1rem;
+}
 #hero-image {
     background: url('../images/diana-hero-pic-homepage.png') no-repeat bottom center / contain;
     height: 425px;
@@ -278,6 +281,10 @@ main {
         padding-top: 104px;
     }
 
+    /* hero section */
+    #hero-image {
+        height: 335px;
+    }
 
 }
 
@@ -307,6 +314,11 @@ main {
 
     main {
         padding-top: 126px;
+    }
+
+    /* hero section */
+    #hero-image {
+        height: 450px;
     }
 
 }
