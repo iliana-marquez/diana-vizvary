@@ -56,23 +56,39 @@
     background-color: transparent;
     border: var(--highlight-primary-color) solid 3px;
     color: var(--highlight-primary-color);
+    transition: 0.2s ease-in-out;
 }
 
-.btn-hl-primary-color {
-    background-color: transparent;
+.btn-hl-primary-color:hover {
+    background-color: var(--highlight-primary-color);
     border: var(--highlight-primary-color) solid 3px;
-    color: var(--highlight-primary-color);
+    color: var(--primary-color);
 }
 
 .btn-hl-secondary-color {
     background-color: transparent;
     border: var(--highlight-secondary-color) solid 3px;
     color: var(--highlight-secondary-color);
+    transition: 0.2s ease-in-out;
 }
+
+.btn-hl-secondary-color:hover {
+    background-color: var(--highlight-secondary-color);
+    border: var(--highlight-secondary-color) solid 3px;
+    color: var(--primary-color);
+}
+
 .btn-hl-tertiary-color {
     background-color: transparent;
     border: var(--highlight-tertiary-color) solid 3px;
     color: var(--highlight-tertiary-color);
+    transition: 0.2s ease-in-out;
+}
+
+.btn-hl-tertiary-color:hover {
+    background-color: var(--highlight-tertiary-color);
+    border: var(--highlight-tertiary-color) solid 3px;
+    color: var(--primary-color);
 }
 
 .btn-primary-color {
