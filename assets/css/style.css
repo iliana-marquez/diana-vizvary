@@ -45,8 +45,16 @@
 .hl-secondary-color-title {
     color: var(--highlight-secondary-color);
 }
+
+.hl-tertiary-color-title {
+    color: var(--highlight-tertiary-color);
+}
+
 .tertiary-color-title {
     color: var(--tertiary-color);
+}
+.secondary-color-title {
+    color: var(--secondary-color);
 }
 
 
