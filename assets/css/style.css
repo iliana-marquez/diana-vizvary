@@ -364,9 +364,13 @@ footer #address i {
     }
 
     /* Main */
-
     main {
         padding-top: 80px;
+    }
+
+    /* Services Section */
+    #hero-intro {
+        padding: 1rem 1.5rem 1rem 1.5rem;
     }
 
 
@@ -393,14 +397,17 @@ footer #address i {
         padding-top: 104px;
     }
 
-    /* hero section */
+    /* Hero Section */
     #hero-intro {
-        padding: 1rem 0 1rem 1rem;
+        padding: 1rem 0 1rem 2rem;
     }
 
     #hero-image {
         height: 335px;
     }
+
+   
+
 
 
     /* Footer */
