@@ -130,6 +130,12 @@
     color: var(--secondary-color);    
 }
 
+.btn-secondary-color:hover {
+    background-color: var(--secondary-color);
+    border: var(--secondary-color) solid 3px;
+    color: var(--primary-color);    
+}
+
 .btn-tertiary-color {
     background-color: transparent;
     border: var(--tertiary-color) solid 3px;
@@ -230,7 +236,7 @@ main {
     padding: 1rem 1rem 1rem 1rem;
 }
 #hero-image {
-    background: url('../images/diana-hero-pic-homepage.png') no-repeat bottom center / contain;
+    background: url('assets/images/diana-hero-pic-homepage.png') no-repeat bottom center / contain;
     height: 425px;
     width: 100%;
 }
@@ -256,23 +262,23 @@ main {
 }
 
 #card-image-coach {
-    background: url('/assets/images/diana_coach_session_2.jpg') no-repeat center / cover ;
+    background: url('../images/diana_coach_session_2.jpg') no-repeat center / cover ;
     height: 300px;
     /* border-image: 1 fill linear-gradient( rgba(255, 255, 255, 00), rgba(255, 255, 255, 00), rgba(255, 255, 255, 00), rgba(255, 255, 255, 00),rgba(36, 37, 37, 0.5), rgba(36, 37, 42, 0.8), rgba(36, 37, 42, 1)); */
 }
 
 #card-image-pianist {
-    background: url('/assets/images/diana-playing-piano.png') no-repeat center / cover;
+    background: url('../images/diana-playing-piano.png') no-repeat center / cover;
     height: 300px;
 }
 
 #card-image-singer {
-    background: url('/assets/images/diana-singing.png') no-repeat center / cover;
+    background: url('../images/diana-singing.png') no-repeat center / cover;
     height: 300px;
 }
 
 #card-image-speaker {
-    background: url('/assets/images/speaker-example-pic.webp') no-repeat center / cover;
+    background: url('../images/speaker-example-pic.webp') no-repeat center / cover;
     height: 300px;
 }
 
