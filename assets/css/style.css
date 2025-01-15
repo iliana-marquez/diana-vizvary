@@ -227,6 +227,29 @@ main {
     color: var(--secondary-color);
 }
 
+ /* Sevices Section */
+ #services .custom-row {
+    max-width: 85%;
+}
+
+#services .custom-card {
+    background-color: var(--primary-color);
+}
+
+#services .card-content {
+    padding: 1rem;
+    text-align: center;
+}
+#card-image-coach {
+    background: url('/assets/images/diana_coach_session_2.jpg') no-repeat center / cover ;
+    height: 300px;
+    /* border-image: 1 fill linear-gradient( rgba(255, 255, 255, 00), rgba(255, 255, 255, 00), rgba(255, 255, 255, 00), rgba(255, 255, 255, 00),rgba(36, 37, 37, 0.5), rgba(36, 37, 42, 0.8), rgba(36, 37, 42, 1)); */
+}
+
+#card-image-pianist {
+    background: url('/assets/images/diana_playing_the_piano.jpg') no-repeat center / cover;
+    height: 300px;
+}
 
 /* Relevant-Info Section */
 
@@ -347,6 +370,7 @@ footer #address i {
     #hero-image {
         height: 335px;
     }
+ 
 
     /* Footer */
     footer #address,
