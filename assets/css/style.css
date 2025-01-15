@@ -245,6 +245,12 @@ main {
     width: 100%;
 }
 
+#about-hero-image {
+    background: url('../images/diana-about-hero-pic.png') no-repeat bottom center / contain;
+    height: 376px;
+    width: 100%;
+}
+
 /* Services Section */
 #services {
     background-color: var(--tertiary-color);
@@ -406,6 +412,11 @@ footer #address i {
         height: 335px;
     }
 
+    #about-hero-image {
+        height: 295px;
+    }
+    
+
    
 
 
@@ -427,7 +438,6 @@ footer #address i {
 
 /* Large devices (small laptops, 992px and up*/
 @media screen and (min-width: 992px) {
-
     /* Navigation */
     #toggle-menubar-btn {
         display: none;
@@ -450,7 +460,7 @@ footer #address i {
     /* Main */
 
     main {
-        padding-top: 126px;
+        padding-top: 130px;
     }
 
     /* Hero Section */
