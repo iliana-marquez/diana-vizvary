@@ -28,6 +28,7 @@
     font-family: var(--tertiary-font);
 }
 
+/* Titles */
 .coursive-title {
     font-family: var(--primary-font);
 }
@@ -37,6 +38,18 @@
     text-transform: uppercase;
     font-weight: 300;
 }
+
+.hl-primary-color-title {
+    color: var(--highlight-primary-color);
+}
+.hl-secondary-color-title {
+    color: var(--highlight-secondary-color);
+}
+.tertiary-color-title {
+    color: var(--tertiary-color);
+}
+
+
 
 /* Buttons Sytle */
 .custom-btn {
