@@ -209,6 +209,12 @@ main {
     color: var(--secondary-color);
 }
 
+#hero-image {
+    background: url('../images/diana-hero-pic-homepage.png') no-repeat center center / contain;
+    height: 492px;
+    width: 100%;
+    overflow-x: visible;
+}
 
 
 
