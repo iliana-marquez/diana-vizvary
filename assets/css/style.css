@@ -290,6 +290,12 @@ main {
 
 /* Relevant-Info Section */
 
+/* About Page */
+#about-relevant-info {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
 
 
 /* Footer */
