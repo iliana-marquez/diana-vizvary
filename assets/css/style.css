@@ -207,13 +207,14 @@ main {
 #hero {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 #hero-image {
-    background: url('../images/diana-hero-pic-homepage.png') no-repeat center center / contain;
-    height: 492px;
+    background: url('../images/diana-hero-pic-homepage.png') no-repeat bottom center / contain;
+    height: 425px;
     width: 100%;
-    overflow-x: visible;
 }
 
 
