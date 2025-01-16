@@ -204,15 +204,10 @@ nav ul {
 #links {
     position: absolute;
     top: 100%;
-    /* Place below the header */
     left: 0;
-    /* Align to the left edge */
     width: 100%;
-    /* Span the full width */
     background-color: var(--primary-color);
-    /* Match the header background */
     z-index: 1000;
-    /* Ensure it sits above other elements */
     height: 100vh;
     display: none;
 }
@@ -233,7 +228,6 @@ nav ul {
 }
 
 /* Main */
-
 main {
     padding-top: 72px;
 }
@@ -522,6 +516,36 @@ footer #address i {
         justify-content: flex-end;
         padding-bottom: auto;
     }
+
+    #links a {
+        transition: ease-in-out 0.3s;
+    }
+
+    /* Styles for static navbar links */
+    #links .about-link:hover, 
+    #links .about-link-active {
+        background-color: var(--highlight-tertiary-color);
+        color: var(--primary-color);
+    }
+    
+    #links .coaching-link:hover, 
+    #links .coaching-link-active {
+        background-color: var(--highlight-primary-color);
+        color: var(--primary-color);
+    }
+    
+    #links .booking-link:hover, 
+    #links .booking-link-active {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+    }
+    
+    #links .contact-link:hover, 
+    #links .contact-link-active {
+        background-color: var(--highlight-secondary-color);
+        color: var(--primary-color);
+    }
+
 
     /* Main */
 
