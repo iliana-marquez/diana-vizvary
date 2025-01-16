@@ -292,6 +292,12 @@ main {
     height: 300px;
 }
 
+/* Services Coaching Page */
+#card-image-interpretation {
+    background: url('../images/carreer-diana-coach.png') no-repeat center / cover;
+    height: 300px;
+}
+
 /* Carrer Section About Page */
 #carreer {
     padding: 0;
