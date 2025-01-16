@@ -364,8 +364,8 @@ footer * {
     transition: 0.2s ease-in-out;
 }
 
-#nav-links a,
-#tel-nr {
+#nav-links a
+{
     font-size: 1.25rem;
     transition: 0.2s ease-in-out;
 }
