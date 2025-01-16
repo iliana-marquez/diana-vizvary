@@ -89,7 +89,30 @@
                             <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
                         </div>
                         <div class="col-12 mb-3 text-center">
-                            <button type="submit" class="custom-btn btn-primary-color">Send</button>
+                            <!-- Button trigger modal -->
+                            <button type="submit" class="custom-btn btn-primary-color" data-bs-toggle="modal"
+                                data-bs-target="#confirmationModal">Send</button>
+                            <!-- Modal -->
+                            <div class="modal fade sharp-corners" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="confirmationModalLabel">Thank you for you message!</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Your questions and feedback are important, will get back at you as soon as possible</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="custom-btn btn-primary-color"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <a class="custom-btn btn-primary-color" type="button" href="index.html">Homepage</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </form>
