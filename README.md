@@ -4,7 +4,7 @@
 
 (Visit Live Site[https://iliana-marquez.github.io/diana-vizvary/index.html])
 
-The main goal of this website is to present Diana's Artistc Profile to new users and to regular community members to keep them up to date with her artistic journey and to give them the opportunity to access many of Dianas services as a musician and music mentor. 
+The main goal of this website is to present Diana's Artistic Profile to new users and to regular community members to keep them up to date with her artistic journey and to give them the opportunity to access many of Dianas services as a musician and music mentor. 
 
 This Website was mobile fist designed and allows a user friendly navigation along all device sizes, considering that many if not the majority of her users will visit her Website on mobile devices.
 
@@ -21,7 +21,7 @@ The website's architecture was based on Diana's user stories:
 
 - As a musician, I want to book coaching sessions so I can improve my skills.
 
-- As a collabotaror, I want to know Diana's cultural iniciatives and be capable to inquire about future collabolations.
+- As a collaborator, I want to know Diana's cultural initiatives and be capable to inquire about future collabolations.
 
 - As a visitor, I want to contact Diana directly, so that I can inquire about her services or events.
 
@@ -86,6 +86,11 @@ The design was based entirely in Diana's energetic and colorful personality, tra
 
 - W3C:
     - HTML Valdation:
+        - index.html: Document checking completed. No errors or warnings to show.
+        - about.html: Document checking completed. No errors or warnings to show.
+        - coaching.html: Document checking completed. No errors or warnings to show.
+        - booking.html: Document checking completed. No errors or warnings to show. (After removing type="button" to a tag in modal on booking & contact.html)
+        - contact.html: 
 
     - CSS Validation:
 
@@ -101,8 +106,8 @@ The design was based entirely in Diana's energetic and colorful personality, tra
     - Huawei-Pro, Iphone 13
 
 - Known bugs:
-    - On the Iphone 13 the telefon number on the footer section overflows on top of the email line and hinders its visibility
-    - The MrDafo Font is not recogniced on the desktop browsers.
+    - On the Iphone 13 the telefon number on the footer section overflows on top of the email line and obstructs its visibility
+    - The MrDafoe Font is not recognized on the desktop browsers.
     - The html form validation doesn't apply when using modal confirmation, js needs to be implemented.
 
 ### Overcomed challenges:
