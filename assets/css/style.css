@@ -383,6 +383,7 @@ footer #socials {
 footer #address {
     display: flex;
     justify-content: start;
+    min-height: 75px;
 }
 
 footer #contact {
