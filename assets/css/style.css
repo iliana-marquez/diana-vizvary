@@ -145,6 +145,12 @@
     color: var(--tertiary-color);
 }
 
+.btn-tertiary-color:hover {
+    background-color: var(--tertiary-color);
+    border: var(--tertiary-color) solid 3px;
+    color: var(--secondary-color);
+}
+
 .sharp-corners,
 .sharp-corners * {
     border-radius: 0;
