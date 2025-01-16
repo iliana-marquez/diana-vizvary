@@ -287,14 +287,51 @@ main {
     height: 300px;
 }
 
+/* Carrer Section About Page */
+#carreer {
+    padding: 0;
+    margin: 0;
+}
+
+#carreer-foto-pianist {
+    background: url('../images/carreer-diana-piano.png') no-repeat top center / cover;
+    height: 500px;
+}
+
+#carreer-foto-coach {
+    background: url('../images/carreer-diana-coach.png') no-repeat top center / cover;
+    height: 500px;
+}
+
+#carreer-foto-singer {
+    background: url('../images/carreer-diana-singer.png') no-repeat top center / cover;
+    height: 500px;
+}
+
+#carreer-foto-speaker {
+    background: url('../images/carreer-example-speaker.png') no-repeat top center / cover;
+    height: 500px;
+}
+
+#carreer-foto-advocate {
+    background: url('../images/carreer-diana-advocate.png') no-repeat top center / cover;
+    height: 500px;
+}
+
+
+
+
+
+
+
 
 /* Relevant-Info Section */
-
 /* About Page */
 #about-relevant-info {
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
+
 
 
 
