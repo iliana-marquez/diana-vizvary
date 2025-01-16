@@ -293,6 +293,10 @@ main {
     margin: 0;
 }
 
+#carreer .row {
+    --bs-gutter-x: 0.5rem;
+}
+
 #carreer-foto-pianist {
     background: url('../images/carreer-diana-piano.png') no-repeat top center / cover;
     height: 500px;
