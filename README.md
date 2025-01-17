@@ -55,35 +55,35 @@ The design reflects Diana's energetic and colorful personality, translated into 
     - Resposonsive design:
         - Dropdown navbar for small and medium devices:
 
-        ![alt text](<docs/image-5.png>)
+        ![homepage small device with dropdown navbar](<docs/image-5.png>)
 
         - Static navbar on larger devices with active-link classes for page orientation.
 
-        ![alt text](<docs/image-6.png>)
+        ![homepage with static navbar](<docs/image-6.png>)
     
 - Main Section:
     - Hero section highlighting Diana’s musical abilities with clear CTAs on the homepage.
 
-    ![alt text](<docs/image-7.png>)
+    ![homepage hero section](<docs/image-7.png>)
 
     - Services section featuring Diana's offerings with responsive card layout.
 
-    ![alt text](docs/image-2.png)
+    ![services cards with buttons and displayed on a responsive 4 by 4 grid system](docs/image-2.png)
 
     - Interactive, clickable elements for easy navigation throughout the site.
 
-    ![alt text](docs/image-3.png)
+    ![coaching service section with navbar](docs/image-3.png)
 
     - Contact and booking forms for user engagement.
    
-    ![alt text](<docs/image-8.png>)
-    ![alt text](<docs/image-9.png>)
+    ![coaching form](<docs/image-8.png>)
+    ![conctact form](<docs/image-9.png>)
 
 
 - Footer 
     - Responsive design displaying Diana's information and navigation links.
     - Includes links to Diana’s social media and other sections of the site for easy navigation.
-    ![alt text](docs/image-4.png)
+    ![image of the about site including footer section](docs/image-4.png)
 
 
 
