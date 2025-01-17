@@ -101,7 +101,7 @@ The design reflects Diana's energetic and colorful personality, translated into 
 
 - Programs:
     - Git: For version control.
-    - GitHub: For storing and deploying the project. 
+    - GitHub: For storing, monitoring and deploying the project. 
     - Canva: For wireframes' design and custom website elements such as backgroundless hero images.
 
 # Testing
@@ -153,13 +153,12 @@ The design reflects Diana's energetic and colorful personality, translated into 
 - Browsing:
     - Tested on Chrome, Safari, Firefox, and Edge.
 
-- Devices:
+- Mobile Devices:
     - Huawei-Pro, Iphone 13
 
 - Known bugs to be fixed shortly:
     - On iPhone 13, the phone number in the footer overlaps the email line, obstructing visibility.
     - The MrDafoe font does not render correctly in some desktop browsers.
-    - HTML form validation does not work with modal confirmations unless JavaScript is implemented.
 
 ### Overcomed challenges:
 
