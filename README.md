@@ -4,54 +4,54 @@
 
 [Visit Live Page](https://iliana-marquez.github.io/diana-vizvary/index.html)
 
-The main goal of this website is to present Diana's Artistic Profile to new users and to regular community members to keep them up to date with her artistic journey and to give them the opportunity to access many of Dianas services as a musician and music mentor. 
+The main goal of this website is to present Diana's Artistic Profile to new users and regular community members, keeping them updated on her artistic journey. It also provides opportunities to access Diana's services as a musician and music mentor.
 
-This Website was mobile fist designed and allows a user friendly navigation along all device sizes, considering that many if not the majority of her users will visit her Website on mobile devices.
+This website was mobile-first designed to ensure a user-friendly navigation experience across all device sizes, considering that many of Diana's users will likely visit on mobile devices.
 
-![Dianas responsive website displayed on different devices](/assets/images/dianas-website-responsive.png)
+![Diana's responsive website displayed on different devices](/assets/images/dianas-website-responsive.png)
 
 
 # UI/UX
 
 The website's architecture was based on Diana's user stories:
 
-- As a first time visitor, I need easy navigation and user-friendly design to have a seamless experience into getting to know Diana Vizvary's through her website: who is she? what does she do? what does she offers? how to contact her? and so on...
+- As a first-time visitor, I want easy navigation and user-friendly design to seamlessly learn about Diana Vizvary: who she is, what she does, what she offers, and how to contact her.
 
-- As someone interested in Diana, I want to learn about her services and artistic achievements so I can decide how to engage.
+- As someone interested in Diana, I want to explore her services and artistic achievements to decide how to engage.
 
-- As a musician, I want to book coaching sessions so I can improve my skills.
+- As a musician, I want to book coaching sessions to improve my skills.
 
-- As a collaborator, I want to know Diana's cultural initiatives and be capable to inquire about future collabolations.
+- As a collaborator, I want to learn about Diana's cultural initiatives and inquire about future collaborations.
 
-- As a visitor, I want to contact Diana directly, so that I can inquire about her services or events.
+- As a visitor,  I want to contact Diana directly to inquire about her services or events.
 
-- As a visitor, I want to easily view Diana's contact information and social media links, so that I can reach out to her through multiple channels.
+- As a visitor, I want to easily find Diana's contact information and social media links to reach out to her through multiple channels.
 
 ### Design
 
-The design was based entirely in Diana's energetic and colorful personality, translated into colors to display her story and music processes throughout:
+The design reflects Diana's energetic and colorful personality, translated into colors that tell her story and represent her music processes:
 
 - Color Palette
 
-    - Diana the Artist and her direct related insights = Red: passion.
-    - Coaching = Orange: result of the energy burst of the coaching process.
-    - Services = Purple; resilence and wisdom built on decades of experience.
-    - Cultural Initiatives = White: the presence of all the colors to enlighten musical collaboratios in all ways. 
+    - Diana the Artist and her direct insights = Red (passion).
+    - Coaching = Orange (result of the energy burst of the coaching process).
+    - Services = Purple (resilence and wisdom built on decades of experience).
+    - Cultural Initiatives = White (the presence of all the colors to enlighten musical collaboratios in all ways). 
 
-    ![Dianas website color palet](image.png)
+    ![Diana's website color palette](image.png)
 
 - Typography
 
-    - MrDafoe / Palm Clup: Coursive main titles to share an almost handwritte communication with the users.
-    - Oswald: Block main titles to present Dianas musical approach.
-    - Poopins: General content presented with a wide easy to read font that facilitates clear and engaging communication of Diana's insights with the user.
-a
-    ![alt text](image-1.png)
+    - MrDafoe / Palm Clup: Cursive main titles to create a handwritten feel and personal connection with users.
+    - Oswald: Block main titles that convey Diana's structured musical approach.
+    - Poopins: A wide, easy-to-read font for general content that enhances clarity and engages users with Diana's insights.
+
+    ![Diana's font selection display](image-1.png)
 
 ### Features
 
-- Responsive on all devices
-- Interactive clickable elements
+- Fully responsive on all devices
+- Interactive, clickable elements for easy navigation
 
 
 # Technologies Used 
@@ -61,20 +61,14 @@ a
     - CSS
 
 - Libraries:
-    - Bootstrap 5.3.3:
-        - To speed up the process of creating responsive sections throughout the site.
-    - Google Fonts:
-        - To use the three main choices of the website's design.
-    - Font Awesome
-        - To use icons for intuitive contact information and socialmedia display.
+    - Bootstrap 5.3.3: To speed up the process of creating responsive sections throughout the site.
+    - Google Fonts: To use the three main choices of the website's design.
+    - Font Awesome: Use of icons for intuitive contact information and socialmedia display.
 
 - Programs:
-    - Git:
-        - For version control
-    - GitHub:
-        - For storing and early deployment 
-    - Canva:
-        - For website design (wireframes) and custom website items such as backgroundless hero images
+    - Git: For version control.
+    - GitHub: For storing and deploying the project. 
+    - Canva: For wireframes' design and custom website elements such as backgroundless hero images.
 
 # Testing
 
@@ -120,37 +114,35 @@ a
         - Best Practices: 100
 
 - Testing User Stories from User Experiences:
-    - In process of compilation ...
+    - Currently being compiled.
 
 - Browsing:
-    - Chrome, Safari, Firefox and Edge. 
+    - Tested on Chrome, Safari, Firefox, and Edge.
 
 - Devices:
     - Huawei-Pro, Iphone 13
 
 - Known bugs to be fixed shortly:
-    - On the Iphone 13 the telefon number on the footer section overflows on top of the email line and obstructs its visibility
-    - The MrDafoe Font is not recognized on the desktop browsers.
-    - The html form validation doesn't apply when using modal confirmation, js needs to be implemented.
+    - On iPhone 13, the phone number in the footer overlaps the email line, obstructing visibility.
+    - The MrDafoe font does not render correctly in some desktop browsers.
+    - HTML form validation does not work with modal confirmations unless JavaScript is implemented.
 
 ### Overcomed challenges:
 
    - Development of responsive navbar section with minimal amount of html code and one js function.
-   - Succesfull image rendering after applying relative pahts throughout css background images.
-   - Responsive Hero Sections: Designed and optimized hero sections on the Home and About pages by using appropriate CSS background properties and tailored media queries, ensuring responsiveness across all devices.
+   - Succesfull image rendering after applying relative paths throughout css background images.
+   - Designed and optimized responsive hero sections on the Home and About pages by using appropriate CSS background properties and tailored media queries, ensuring responsiveness across all devices.
    - Streamlined CSS with Variables: Declared root CSS variables for titles and custom button classes, enabling consistent and efficient styling throughout the project.
-
-
 
 ### Future improvements:
 
-- Add following features to comply with further user storys for business goals:
-    - Feedback Section
-    - Multi-media (Dianas Work) page(s)
-    - Newsletter Sign Up / Blog page
-    - Booking with calender tool
+- Add features to to support additional user stories and business goals:
+    - Feedback Section.
+    - Multimedia pages showcasing Diana's work.
+    - Newsletter sign-up or blog.
+    - Booking with calender tool.
 
-- Dymamic animation througout the project.
+- Implement dymamic animations througout the project.
 
 # Credits
 
@@ -166,13 +158,16 @@ a
 
 ### Content
 
-- Diana Vizvary musical carreer insights and businessgoals sharing for the design of this website and its further developing for a future commercial use.
+- Diana Vizvary musical carreer insights and businessgoals for the design of this website and its further developing for a future commercial use.
 - All content was written by the developer in collaboration with Diana Vizvary, the artist presented in the website. 
 
 
 ### Acknowledgments 
 
-- Code Institute Learning plattform for sharin insightful information on the very important fundations for propper development processes, from planning to version controll, early deployment and documentation. 
+- Code Institute for guidance on foundational development processes, version control, and documentation.
+- Code-Institute-Solutions for providing a sample README as a reference.
+
+
 
 
 
