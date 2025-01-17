@@ -8,7 +8,7 @@ The main goal of this website is to present Diana's Artistic Profile to new user
 
 This website was mobile-first designed to ensure a user-friendly navigation experience across all device sizes, considering that many of Diana's users will likely visit on mobile devices.
 
-![Diana's responsive website displayed on different devices](/assets/images/dianas-website-responsive.png)
+![Diana's responsive website displayed on different devices](dianas-website-responsive.png)
 
 
 # UI/UX
@@ -48,10 +48,32 @@ The design reflects Diana's energetic and colorful personality, translated into 
 
     ![Diana's font selection display](image-1.png)
 
-### Features
+# Features
 
-- Fully responsive on all devices
-- Interactive, clickable elements for easy navigation
+- Navigation
+    - Fixed on the top to allow accesibility of its content throughout the page.
+    - Has resposonsible design:
+        - Dropdown navar in small and medium devices:
+        ![alt text](<Screenshot 2025-01-17 at 04.01.40.png>)
+        - Satic navbar menu on larger devices and active-link classes to ensure orientation between pages.
+        ![alt text](<Screenshot 2025-01-17 at 04.36.15.png>)
+    
+- Main section:
+    - Hero Section with a clear statement presenting Dianas musical habilities and call-to-action buttons on Homepage.
+    ![alt text](<Screenshot 2025-01-17 at 03.56.11.png>)
+
+    - The Services Section display Diana's services through responsive sizing cards
+    ![alt text](image-2.png)
+
+    - Interactive, clickable elements throughout the site for easy navigation
+    ![alt text](image-3.png)
+
+    - Contact and booking forms linked throghout the site for engaging purposes
+
+- Footer is resposive as well and displays Dianas Information and navigation links to visis her social media or move around the site
+    ![alt text](image-4.png)
+
+
 
 
 # Technologies Used 
