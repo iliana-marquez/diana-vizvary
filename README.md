@@ -1,8 +1,13 @@
 ## Welcome to Diana Vizvary's Website 
 
-### The artistic portfolio of Diana Vizvary, a multifaceted artist and musician.
+### Accesing the project
 
-[Visit Live Page](https://iliana-marquez.github.io/diana-vizvary/index.html)
+This project is publicly accessible and does not require any credentials. You can view the live site and repository using the following links:
+
+- Live Site: [https://iliana-marquez.github.io/diana-vizvary/index.html]
+- GitHub Repository: [https://github.com/iliana-marquez/diana-vizvary.git]
+
+### The artistic portfolio of Diana Vizvary, a multifaceted artist and musician.
 
 The main goal of this website is to present Diana's Artistic Profile to new users and regular community members, keeping them updated on her artistic journey. It also provides opportunities to access Diana's services as a musician and music mentor.
 
@@ -84,8 +89,6 @@ The design reflects Diana's energetic and colorful personality, translated into 
     - Responsive design displaying Diana's information and navigation links.
     - Includes links to Diana’s social media and other sections of the site for easy navigation.
     ![image of the about site including footer section](docs/image-4.png)
-
-
 
 
 # Technologies Used 
