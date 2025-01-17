@@ -208,6 +208,7 @@ The design reflects Diana's energetic and colorful personality, translated into 
 
 - Diana Vizvary musical carreer insights and businessgoals for the design of this website and its further developing for a future commercial use.
 - All content was written by the developer in collaboration with Diana Vizvary, the artist presented in the website. 
+- Images for Speaker in Homepage and Coach in About page were taken from [Pexels](https://www.pexels.com/).
 
 
 ### Acknowledgments 
