@@ -135,10 +135,12 @@ a
 
 ### Overcomed challenges:
 
-- Development of responsive navbar section with minimal amount of html code and one js function.
-- Succesfull image rendering after applying relative pahts throughout css background images.
-- Responsive layout for hero sections on the Home and About pages after adding prpper css background properties and media queries.
-- Declared root css variables for Titles and Custom-Buttons classes for efficient utilization throughout the project. 
+   - Development of responsive navbar section with minimal amount of html code and one js function.
+   - Succesfull image rendering after applying relative pahts throughout css background images.
+   - Responsive Hero Sections: Designed and optimized hero sections on the Home and About pages by using appropriate CSS background properties and tailored media queries, ensuring responsiveness across all devices.
+   - Streamlined CSS with Variables: Declared root CSS variables for titles and custom button classes, enabling consistent and efficient styling throughout the project.
+
+
 
 ### Future improvements:
 
