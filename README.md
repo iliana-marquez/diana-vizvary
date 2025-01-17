@@ -8,7 +8,7 @@ The main goal of this website is to present Diana's Artistic Profile to new user
 
 This website was mobile-first designed to ensure a user-friendly navigation experience across all device sizes, considering that many of Diana's users will likely visit on mobile devices.
 
-![Diana's responsive website displayed on different devices](dianas-website-responsive.png)
+![Diana's responsive website displayed on different devices](docs/dianas-website-responsive.png)
 
 
 # UI/UX
@@ -38,7 +38,7 @@ The design reflects Diana's energetic and colorful personality, translated into 
     - Services = Purple (resilence and wisdom built on decades of experience).
     - Cultural Initiatives = White (the presence of all the colors to enlighten musical collaboratios in all ways). 
 
-    ![Diana's website color palette](image.png)
+    ![Diana's website color palette](docs/image.png)
 
 - Typography
 
@@ -46,7 +46,7 @@ The design reflects Diana's energetic and colorful personality, translated into 
     - Oswald: Block main titles that convey Diana's structured musical approach.
     - Poopins: A wide, easy-to-read font for general content that enhances clarity and engages users with Diana's insights.
 
-    ![Diana's font selection display](image-1.png)
+    ![Diana's font selection display](docs/image-1.png)
 
 # Features
 
@@ -55,35 +55,35 @@ The design reflects Diana's energetic and colorful personality, translated into 
     - Resposonsive design:
         - Dropdown navbar for small and medium devices:
 
-        ![alt text](<Screenshot 2025-01-17 at 04.01.40.png>)
+        ![alt text](<docs/image-5.png>)
 
         - Static navbar on larger devices with active-link classes for page orientation.
 
-        ![alt text](<Screenshot 2025-01-17 at 04.36.15.png>)
+        ![alt text](<docs/image-6.png>)
     
 - Main Section:
     - Hero section highlighting Diana’s musical abilities with clear CTAs on the homepage.
 
-    ![alt text](<Screenshot 2025-01-17 at 03.56.11.png>)
+    ![alt text](<docs/image-7.png>)
 
     - Services section featuring Diana's offerings with responsive card layout.
 
-    ![alt text](image-2.png)
+    ![alt text](docs/image-2.png)
 
     - Interactive, clickable elements for easy navigation throughout the site.
 
-    ![alt text](image-3.png)
+    ![alt text](docs/image-3.png)
 
     - Contact and booking forms for user engagement.
    
-    ![alt text](<Screenshot 2025-01-17 at 04.53.45.png>)
-    ![alt text](<Screenshot 2025-01-17 at 04.53.57.png>)
+    ![alt text](<docs/image-8.png>)
+    ![alt text](<docs/image-9.png>)
 
 
 - Footer 
     - Responsive design displaying Diana's information and navigation links.
     - Includes links to Diana’s social media and other sections of the site for easy navigation.
-    ![alt text](image-4.png)
+    ![alt text](docs/image-4.png)
 
 
 
@@ -178,6 +178,18 @@ The design reflects Diana's energetic and colorful personality, translated into 
 
 - Implement dymamic animations througout the project.
 
+# Deployment 
+
+- This project was deployed to GitHub pages under the following process:
+    - Log in to GitHub and open the repository.
+    - Go to Settings in the repository menu.
+    - Scroll to the GitHub Pages section.
+    - Under Source, select "Master Branch" from the dropdown.
+    - Once selected the page will automatically refresh 
+    - The site link will appear in the GitHub Pages section.
+
+- [Visit Live Page](https://iliana-marquez.github.io/diana-vizvary/index.html)
+
 # Credits
 
 ### Code
@@ -200,6 +212,7 @@ The design reflects Diana's energetic and colorful personality, translated into 
 
 - Code Institute for guidance on foundational development processes, version control, and documentation.
 - Code-Institute-Solutions for providing a sample README as a reference.
+- Code Institute's Project Submission Module for providing insightful tips to ensure a successful project submission.
 
 
 
