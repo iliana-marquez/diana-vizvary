@@ -51,26 +51,31 @@ The design reflects Diana's energetic and colorful personality, translated into 
 # Features
 
 - Navigation
-    - Fixed on the top to allow accesibility of its content throughout the page.
-    - Has resposonsible design:
-        - Dropdown navar in small and medium devices:
+    - Fixed at the top for constant accessibility.
+    - Resposonsive design:
+        - Dropdown navbar for small and medium devices:
         ![alt text](<Screenshot 2025-01-17 at 04.01.40.png>)
-        - Satic navbar menu on larger devices and active-link classes to ensure orientation between pages.
+        - Static navbar on larger devices with active-link classes for page orientation.
         ![alt text](<Screenshot 2025-01-17 at 04.36.15.png>)
     
-- Main section:
-    - Hero Section with a clear statement presenting Dianas musical habilities and call-to-action buttons on Homepage.
+- Main Section:
+    - Hero section highlighting Diana’s musical abilities with clear CTAs on the homepage.
     ![alt text](<Screenshot 2025-01-17 at 03.56.11.png>)
 
-    - The Services Section display Diana's services through responsive sizing cards
+    - Services section featuring Diana's offerings with responsive card layout.
     ![alt text](image-2.png)
 
-    - Interactive, clickable elements throughout the site for easy navigation
+    - Interactive, clickable elements for easy navigation throughout the site.
     ![alt text](image-3.png)
 
-    - Contact and booking forms linked throghout the site for engaging purposes
+    - Contact and booking forms for user engagement
+    ![alt text](<Screenshot 2025-01-17 at 04.53.45.png>)
+    ![alt text](<Screenshot 2025-01-17 at 04.53.57.png>)
 
-- Footer is resposive as well and displays Dianas Information and navigation links to visis her social media or move around the site
+
+- Footer 
+    - Responsive design displaying Diana's information and navigation links.
+    - Includes links to Diana’s social media and other sections of the site for easy navigation.
     ![alt text](image-4.png)
 
 
