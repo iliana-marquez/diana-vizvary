@@ -2,16 +2,16 @@
 
 ### The artistic portfolio of Diana Vizvary, a multifaceted artist and musician.
 
-(Visit Live Site[https://iliana-marquez.github.io/diana-vizvary/index.html])
+[Visit Live Page](https://iliana-marquez.github.io/diana-vizvary/index.html)
 
 The main goal of this website is to present Diana's Artistic Profile to new users and to regular community members to keep them up to date with her artistic journey and to give them the opportunity to access many of Dianas services as a musician and music mentor. 
 
 This Website was mobile fist designed and allows a user friendly navigation along all device sizes, considering that many if not the majority of her users will visit her Website on mobile devices.
 
-![Dianas responsive website displayed on different devices](../diana-vizvary/assets/images/dianas-website-responsive.png)
+![Dianas responsive website displayed on different devices](/assets/images/dianas-website-responsive.png)
 
 
-## UI/UX
+# UI/UX
 
 The website's architecture was based on Diana's user stories:
 
@@ -44,15 +44,9 @@ The design was based entirely in Diana's energetic and colorful personality, tra
 
     - MrDafoe / Palm Clup: Coursive main titles to share an almost handwritte communication with the users.
     - Oswald: Block main titles to present Dianas musical approach.
-    - Poopins: General content presented with a wide easy to read font that allows the conversation between the user and Dianas insightful thoughts.
-
+    - Poopins: General content presented with a wide easy to read font that facilitates clear and engaging communication of Diana's insights with the user.
+a
     ![alt text](image-1.png)
-
-- Wireframes:
-
-    - Home Page Wireframe 
-    - About Page Wireframe
-    - Coaching Page Wireframe
 
 ### Features
 
@@ -60,7 +54,7 @@ The design was based entirely in Diana's energetic and colorful personality, tra
 - Interactive clickable elements
 
 
-### Technologies Used 
+# Technologies Used 
 
 - Languages: 
     - HTML5
@@ -80,9 +74,9 @@ The design was based entirely in Diana's energetic and colorful personality, tra
     - GitHub:
         - For storing and early deployment 
     - Canva:
-        - For website design and custom website items such as backgroundless hero images
+        - For website design (wireframes) and custom website items such as backgroundless hero images
 
-### Testing
+# Testing
 
 - W3C:
     - HTML Valdation:
@@ -90,11 +84,40 @@ The design was based entirely in Diana's energetic and colorful personality, tra
         - about.html: Document checking completed. No errors or warnings to show.
         - coaching.html: Document checking completed. No errors or warnings to show.
         - booking.html: Document checking completed. No errors or warnings to show. (After removing type="button" to a tag in modal on booking & contact.html)
-        - contact.html: 
+        - contact.html: Document checking completed. No errors or warnings to show. (After removing type="button" to a tag in modal on booking & contact.html)
 
     - CSS Validation:
+                     Warnings (7)
+             URI : TextArea
+             1		Imported style sheets are not checked in direct input and file upload modes
+             28		Due to their dynamic nature, CSS variables are currently not statically checked
+             33		Due to their dynamic nature, CSS variables are currently not statically checked
+             37		Due to their dynamic nature, CSS variables are currently not statically checked
+             66		Due to their dynamic nature, CSS variables are currently not statically checked
+             192	Due to their dynamic nature, CSS variables are currently not statically checked
+             359	Due to their dynamic nature, CSS variables are currently not statically checked
 
-
+- Lighthouse:
+    - index.html: 
+        - Performance: 97
+        - Accesibility: 95
+        - Best Practices: 100
+    - about.html: 
+        - Performance: 98
+        - Accesibility: 95
+        - Best Practices: 100
+    - coaching.html: 
+        - Performance: 99
+        - Accesibility: 100
+        - Best Practices: 100
+    - booking.html:  
+        - Performance: 100
+        - Accesibility: 100
+        - Best Practices: 100
+    - contact.html: 
+        - Performance: 98
+        - Accesibility: 100
+        - Best Practices: 100
 
 - Testing User Stories from User Experiences:
     - In process of compilation ...
@@ -105,7 +128,7 @@ The design was based entirely in Diana's energetic and colorful personality, tra
 - Devices:
     - Huawei-Pro, Iphone 13
 
-- Known bugs:
+- Known bugs to be fixed shortly:
     - On the Iphone 13 the telefon number on the footer section overflows on top of the email line and obstructs its visibility
     - The MrDafoe Font is not recognized on the desktop browsers.
     - The html form validation doesn't apply when using modal confirmation, js needs to be implemented.
@@ -171,16 +194,6 @@ The design was based entirely in Diana's energetic and colorful personality, tra
 
 
 
-
-
-
-
-
-
-
-Open
-
- how others have benefited from her services?.
 
 
 
