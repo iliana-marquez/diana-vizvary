@@ -28,6 +28,8 @@
     font-family: var(--tertiary-font);
 }
 
+/* for sections to not overpass 1200px width on large screens*/
+
 /* Titles */
 .coursive-title {
     font-family: var(--primary-font);
@@ -280,6 +282,10 @@ main {
     width: 100%;
 }
 
+#home-logo {
+    width: 300px;
+}
+
 /* Services Section */
 #services {
     background-color: var(--tertiary-color);
@@ -450,6 +456,10 @@ footer #address i {
         padding: 1rem 1.5rem 1rem 1.5rem;
     }
 
+    #home-logo {
+        width: 500px;
+    }
+
 }
 
 /* Medium devices (tablets, 768px and up*/
@@ -458,6 +468,10 @@ footer #address i {
     /* Navigation */
     #logo {
         height: 4.5rem;
+    }
+
+    #home-logo {
+        width: 570px;
     }
 
     #menu-icon {
@@ -557,6 +571,10 @@ footer #address i {
     #hero-image {
         height: 450px;
     }
+    
+    #home-logo {
+        width: 700px;
+    }
 
     /* Services Section */
     #services .card-content p {
@@ -569,10 +587,17 @@ footer #address i {
         max-width: 80%;
     }
 
+
+
 }
 
 /* Extra large devices (laptops, 1400px and up*/
 @media screen and (min-width: 1400px) {
+    /* Hero */
+    #home-logo {
+        width: 1000px;
+    }
+
     /* Main */
     /* Services Section */
     #services .card-content p {
@@ -580,5 +605,6 @@ footer #address i {
         padding-bottom: 0;
         margin-bottom: 0;
     }
+
 
 }
