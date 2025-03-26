@@ -288,7 +288,14 @@ main {
     width: 300px;
 }
 
-/* Services Section */
+/* Services(CD) Section */
+.cd {
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
 #services {
     background-color: var(--tertiary-color);
     color: var(--secondary-color);
