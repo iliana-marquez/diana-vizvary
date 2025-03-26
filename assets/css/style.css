@@ -28,8 +28,6 @@
     font-family: var(--tertiary-font);
 }
 
-/* for sections to not overpass 1200px width on large screens*/
-
 /* Titles */
 .coursive-title {
     font-family: var(--primary-font);
@@ -67,7 +65,7 @@
 .custom-btn {
     font-family: var(--secondary-font);
     font-weight: 450;
-    font-size: 1.25rem;
+    font-size: 1rem;
     text-transform: uppercase;
     padding-bottom: .3rem;
     padding-top: .3rem;
@@ -256,6 +254,7 @@ nav ul {
 /* Main */
 main {
     padding-top: 72px;
+    background-color: var(--primary-color);
 }
 
 /* HERO Section */
@@ -436,6 +435,9 @@ footer #address i {
 
 /* Small devices (mobile, 576px and up*/
 @media screen and (min-width: 576px) {
+    .custom-btn {
+        font-size: 1.25rem;
+    }
 
     /* Navigation */
     #logo {
@@ -514,6 +516,10 @@ footer #address i {
 
 /* Large devices (small laptops, 992px and up*/
 @media screen and (min-width: 992px) {
+    .custom-btn {
+        font-size: 1.5rem;
+    }
+
     /* Navigation */
     #toggle-menubar-btn {
         display: none;
