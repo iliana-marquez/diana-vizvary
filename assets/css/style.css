@@ -244,7 +244,7 @@ nav ul {
 /* When scrolled, fade out and move up */
 #home-logo.scrolled {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-10px);
 }
 
 /* When scrolling down */
@@ -289,15 +289,14 @@ main {
 }
 
 /* Services(CD) Section */
-.cd {
-    width: 30vw;
-    height: 30vw;
-    object-fit: cover;
-    aspect-ratio: 16/9;
+#cd {
+    background: url('../images/diana-cd.png') no-repeat center center / cover;
+    height: 300px;
+    width: 300px;
 }
 
 #services {
-    background-color: var(--tertiary-color);
+    background-color: var(--highlight-secondary-color);
     color: var(--secondary-color);
 }
 
