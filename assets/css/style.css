@@ -226,6 +226,31 @@ nav ul {
     padding-left: 4rem;
 }
 
+/* Logo animation from hero to navbar */
+#logo {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Make hero logo larger */
+#home-logo {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* When scrolled, fade out and move up */
+#home-logo.scrolled {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+/* When scrolling down */
+#logo.scrolled {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
 /* Main */
 main {
     padding-top: 72px;
