@@ -164,7 +164,12 @@ header {
 
 .nav-container {
     padding: 1rem;
-    background-color: var(--primary-color);
+    background: linear-gradient(
+    to bottom, 
+    var(--primary-color, #000000) 80%, /* Fallback to black if --primary-color is not defined */
+    rgba(0, 0, 0, 0.5) 90%,
+    rgba(0, 0, 0, 0) 100%
+    );
     color: var(--secondary-color);
     display: flex;
     flex-flow: row;
@@ -205,7 +210,6 @@ nav ul {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: var(--primary-color);
     z-index: 1000;
     height: 100vh;
     display: none;
@@ -219,7 +223,6 @@ nav ul {
     display: flex;
     flex-flow: column;
     gap: 2rem;
-    background-color: var(--primary-color);
     justify-content: space-between;
     align-items: end;
     padding: 2rem;
