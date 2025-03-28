@@ -27,7 +27,7 @@ function toggleMenubar() {
     const homeLogo = document.getElementById("home-logo");
     const navLogo = document.getElementById("logo");
 
-    if (window.scrollY > 60) { 
+    if (window.scrollY > 25) { 
         homeLogo.classList.add("scrolled");
         navLogo.classList.add("scrolled");
     } else {
