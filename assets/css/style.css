@@ -618,8 +618,6 @@ footer #contact i {
         max-width: 80%;
     }
 
-
-
 }
 
 /* Extra large devices (laptops, 1400px and up*/
@@ -635,6 +633,16 @@ footer #contact i {
         min-height: 100px;
         padding-bottom: 0;
         margin-bottom: 0;
+    }
+
+      /* Footer */
+      #address {
+        font-size: 1.25rem;
+    }
+
+    #cd {
+        width: 150px;
+        height: 150px;
     }
 
 
