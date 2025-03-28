@@ -601,10 +601,6 @@ footer #contact i {
         padding-top: 130px;
     }
 
-    p {
-        font-size: 1.25rem;
-    }
-
     /* Hero Section */
     #hero-image {
         height: 450px;
@@ -635,6 +631,9 @@ footer #contact i {
     }
 
     /* Main */
+    p {
+        font-size: 1.25rem;
+    }
     /* Services Section */
     #services .card-content p {
         min-height: 100px;
