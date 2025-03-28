@@ -84,22 +84,7 @@
       </div>
     </section>
 
-    <!-- CD -->
-    <section id="services" class="container-fluid d-flex align-items-center text-center justify-content-center py-3 py-md-4 py-xl-5">
-      <div class="row align-items-center custom-row">
-        <div class="col-12 col-md-8 p-md-2">
-          <!-- Label -->
-          <div id="cd">
-          </div>
-        </div>
-        
-        <div class="col-12 col-md-4 p-md-2">
-          <!-- Description -->
-          <h1 class="block-title secondary-color-title text-center py-3">ALMA MIA - CD</h1>
-        </div>
-      </div>
-
-    </section>
+    
 
   </main>
 
@@ -109,11 +94,11 @@
   <footer class="mt-auto">
     <div class="container-fluid">
       <!-- Footer -->
-      <div class="row align-items-center d-flex flex-wrap-reverse p-2">
+      <div class="row align-items-center d-flex p-2">
         <!-- Links section -->
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-lg-4">
           <!-- Navlinks -->
-          <div id="nav-links" class="col-12">
+          <!-- <div id="nav-links" class="col-12">
             <a href="index.html" aria-label="Visit Diana's home page"
               rel="noopener">Home</a>
             <a href="about.html" aria-label="Visit Diana's about page"
@@ -122,7 +107,7 @@
               rel="noopener">Coaching</a>
             <a href="booking.html" aria-label="Sign up form for Diana's Newsletter"
               rel="noopener">Book</a>
-          </div>
+          </div> -->
           <!-- Socials -->
           <div id="socials" class="col-12 pt-2">
             <a href="https://www.youtube.com/" target="_blank" aria-label="Visit Diana's youtube page, opens in a new tab"
@@ -137,25 +122,30 @@
               rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
           </div>
         </div>
+        <!-- CD section -->
+        <div class="col-12 col-lg-4 flex d-flex justify-content-center align-items-center text-center cd-container">
+          <div id="cd">
+          </div>
+        </div>
         <!-- Contact section -->
-        <div class="col-12 col-md-6 pt-2">
+        <div class="col-12 col-lg-4 pt-2">
           <div class="row align-items-center">
-            <div id="address" class="col-8 col-md-6">
+            <div id="address" class="col-8 col-md-8">
               <p class="m-0">
-                <i class="fa-solid fa-house"></i> Vienna, Austria <br>
-                <i class="fa-regular fa-paper-plane"></i>  info@dianavizvary.com <br>
-                <i class="fa-solid fa-phone"></i>  +43 123 456 7890
+                <i class="fa-solid fa-house"></i> Wien, Österreich <br>
+                <i class="fa-regular fa-paper-plane"></i>  dianavizvary.art@gmail.com <br>
+                <i class="fa-solid fa-phone"></i>  +43 699 19177614
               </p>
             </div>
-            <div id="contact" class="col-4 col-md-6">
-              <a href="contact.html" class="custom-btn btn-hl-secondary-color">contact</a>
+            <div id="contact" class="col-4 col-md-4">
+              <a href="contact.html" class="custom-btn btn-hl-secondary-color">Kontakt</a>
             </div>
           </div>
         </div>
        
       </div>
       <div class="m-0">
-        <p class="text-center m-0 pt-2">Diana Vizvary <i class="fa-regular fa-copyright"></i> 2024</p>
+        <p class="text-center m-0 pt-2">Diana Vizváry <i class="fa-regular fa-copyright"></i> 2024</p>
       </div>
 
     </div>
@@ -171,46 +161,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
   </script>
-
-  <!-- JS Script for the navbar menu toggle dropdown -->
-  <script>
-    function toggleMenubar() {
-
-      let menuIcon = document.getElementById('menu-icon');
-      let links = document.getElementById('links');
-
-      if (menuIcon.src.includes('assets/images/burger-icon.png')) {
-        menuIcon.src = 'assets/images/asterisk-icon.png';
-        links.classList.add('show');
-      } else {
-        menuIcon.src = 'assets/images/burger-icon.png';
-        links.classList.remove('show');
-      }
-
-      let linkItems = links.querySelectorAll('a');
-
-      linkItems.forEach(link => {
-        link.addEventListener('click', function () {
-          links.classList.remove('show'); // Hide the sidebar after a link is clicked
-          menuIcon.src = 'assets/images/burger-icon.png'; // Reset the icon to burger
-        });
-      });
-    }
-
-    // To hide hero logo and add it to the navbar when scrolling down
-    window.addEventListener("scroll", function () {
-    const homeLogo = document.getElementById("home-logo");
-    const navLogo = document.getElementById("logo");
-
-    if (window.scrollY > 60) { 
-        homeLogo.classList.add("scrolled");
-        navLogo.classList.add("scrolled");
-    } else {
-        homeLogo.classList.remove("scrolled");
-        navLogo.classList.remove("scrolled");
-    }
-    });
-
+  <!-- Script -->
+  <script src="assets/js/script.js">
+  
   </script>
 
 </body>
