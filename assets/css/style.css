@@ -296,8 +296,8 @@ main {
     background: url('../images/diana-cd.png') no-repeat center center / cover;
     border: solid var(--highlight-tertiary-color) 4px;
     border-radius: 50%;
-    height: 17.5vh;
-    width: 17.5vh;
+    height: 15vh;
+    width: 15vh;
 }
 
 #services {
