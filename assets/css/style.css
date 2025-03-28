@@ -411,13 +411,6 @@ footer #socials {
     gap: 1rem;
 }
 
-footer #address {
-    display: flex;
-    justify-content: start;
-    min-height: 85px;
-}
-
-
 footer #contact {
     display: flex;
     justify-content: end;
@@ -431,6 +424,10 @@ footer #nav-links {
 footer #address i {
     color: var(--highlight-secondary-color);
     padding-right: 1rem;
+}
+
+footer #contact i {
+    background-color: transparent;
 }
 
 /* Media queries */
