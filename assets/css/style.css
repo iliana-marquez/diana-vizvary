@@ -164,12 +164,13 @@ header {
 
 .nav-container {
     padding: 1rem;
-    background: linear-gradient(
+    /* background: linear-gradient(
         to bottom, 
-        var(--primary-color, #000000) 80%, /* Fallback to black if --primary-color is not defined */
+        var(--primary-color, #000000) 80%, 
         rgba(0, 0, 0, 0.5) 90%,
         rgba(0, 0, 0, 0) 100%
-        );
+        ); */
+    background-color: rgba(0, 0, 0, 0.9);    
     color: var(--secondary-color);
     display: flex;
     flex-flow: row;
@@ -226,7 +227,7 @@ nav ul {
 
 #links.show {
     display: block;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     transform: translateX(0);
 }
 
