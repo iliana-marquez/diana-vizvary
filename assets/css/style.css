@@ -155,7 +155,6 @@
     border-radius: 0;
 }
 
-
 /* Navigation */
 header {
     position: fixed;
@@ -163,7 +162,7 @@ header {
 }
 
 .nav-container {
-    padding: 1rem;
+    padding: 0.5rem;
     /* background: linear-gradient(
         to bottom, 
         var(--primary-color, #000000) 80%, 
@@ -270,6 +269,10 @@ nav ul {
 main {
     padding-top: 72px;
     background-color: var(--primary-color);
+}
+
+p {
+    font-size: 1rem;
 }
 
 /* HERO Section */
@@ -596,6 +599,10 @@ footer #contact i {
     /* Main */
     main {
         padding-top: 130px;
+    }
+
+    p {
+        font-size: 1.25rem;
     }
 
     /* Hero Section */
