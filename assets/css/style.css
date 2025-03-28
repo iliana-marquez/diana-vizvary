@@ -280,7 +280,7 @@ main {
 }
 
 #hero-intro {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 0 1rem;
 }
 
 #hero-image {
@@ -291,8 +291,7 @@ main {
 
 #about-hero-image {
     background: url('../images/diana-about-hero-pic.png') no-repeat bottom center / contain;
-    height: 376px;
-    width: 100%;
+    height: 400px;
 }
 
 #home-logo {
@@ -360,22 +359,22 @@ main {
 }
 
 #carreer-foto-pianist {
-    background: url('../images/carreer-diana-piano.png') no-repeat top center / cover;
+    background: url('../images/baby-diana.jpg') no-repeat top center / cover;
     height: 500px;
 }
 
 #carreer-foto-coach {
-    background: url('../images/carreer-diana-coach.png') no-repeat top center / cover;
+    background: url('../images/funf-jahrige-diana.jpg') no-repeat top center / cover;
     height: 500px;
 }
 
 #carreer-foto-singer {
-    background: url('../images/carreer-diana-singer.png') no-repeat top center / cover;
+    background: url('../images/carreer-diana-piano.png') no-repeat top center / cover;
     height: 500px;
 }
 
 #carreer-foto-speaker {
-    background: url('../images/carreer-example-speaker.png') no-repeat top center / cover;
+    background: url('../images/diana-smile.jpg') no-repeat top center / cover;
     height: 500px;
 }
 
@@ -475,7 +474,7 @@ footer #contact i {
 
     /* Services Section */
     #hero-intro {
-        padding: 1rem 1.5rem 1rem 1.5rem;
+        padding: 1.5rem 1.5rem 0 1.5rem;
     }
 
     #home-logo {
@@ -508,7 +507,7 @@ footer #contact i {
 
     /* Hero Section */
     #hero-intro {
-        padding: 1rem 0 1rem 2rem;
+        padding: 0;
     }
 
     #hero-image {
