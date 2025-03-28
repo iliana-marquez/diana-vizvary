@@ -165,11 +165,11 @@ header {
 .nav-container {
     padding: 1rem;
     background: linear-gradient(
-    to bottom, 
-    var(--primary-color, #000000) 80%, /* Fallback to black if --primary-color is not defined */
-    rgba(0, 0, 0, 0.5) 90%,
-    rgba(0, 0, 0, 0) 100%
-    );
+        to bottom, 
+        var(--primary-color, #000000) 80%, /* Fallback to black if --primary-color is not defined */
+        rgba(0, 0, 0, 0.5) 90%,
+        rgba(0, 0, 0, 0) 100%
+        );
     color: var(--secondary-color);
     display: flex;
     flex-flow: row;
@@ -209,14 +209,17 @@ nav ul {
     position: absolute;
     top: 100%;
     left: 0;
-    width: 100%;
+    width:100%;
     z-index: 1000;
     height: 100vh;
-    display: none;
+    transform: translateX(100%); /* Start off-screen */
+    transition: transform 0.4s ease-in-out;
 }
 
 #links.show {
     display: block;
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: translateX(0);
 }
 
 nav ul {
@@ -291,8 +294,10 @@ main {
 /* Services(CD) Section */
 #cd {
     background: url('../images/diana-cd.png') no-repeat center center / cover;
-    height: 300px;
-    width: 300px;
+    border: solid var(--highlight-tertiary-color) 4px;
+    border-radius: 50%;
+    height: 17.5vh;
+    width: 17.5vh;
 }
 
 #services {
@@ -525,6 +530,11 @@ footer #address i {
 
 /* Large devices (small laptops, 992px and up*/
 @media screen and (min-width: 992px) {
+    #links {
+        transform: translateX(0); /* Start off-screen */
+        transition: transform 0;
+    }
+
     .custom-btn {
         font-size: 1.5rem;
     }
