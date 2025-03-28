@@ -35,3 +35,16 @@ function toggleMenubar() {
         navLogo.classList.remove("scrolled");
     }
     });
+
+// To calculate the height between navbar and footer for dynamic fill of hero section
+function adjustHeroHeight() {
+  const navbarHeight = document.querySelector("nav").offsetHeight;
+  const footerHeight = document.querySelector("footer").offsetHeight;
+  const hero = document.getElementById("hero-container");
+
+  hero.style.minHeight = `calc(100vh - ${navbarHeight}px - ${footerHeight}px)`;
+}
+
+// Run on page load and window resize
+window.addEventListener("load", adjustHeroHeight);
+window.addEventListener("resize", adjustHeroHeight);
