@@ -352,6 +352,7 @@ main {
 #carreer {
     padding: 0;
     margin: 0;
+    background-color: var(--secondary-color);
 }
 
 #carreer .row {
