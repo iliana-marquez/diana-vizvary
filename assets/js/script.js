@@ -6,9 +6,11 @@ function toggleMenubar() {
 
     if (menuIcon.src.includes('assets/images/burger-icon.png')) {
       menuIcon.src = 'assets/images/asterisk-icon.png';
+      menuIcon.classList.add('rotated');
       links.classList.add('show');
     } else {
       menuIcon.src = 'assets/images/burger-icon.png';
+      menuIcon.classList.remove('rotated');
       links.classList.remove('show');
     }
 

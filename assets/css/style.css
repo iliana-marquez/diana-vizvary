@@ -204,6 +204,14 @@ nav ul {
     padding: 0;
 }
 
+#menu-icon {
+    transition: transform 0.4s ease-in-out;
+}
+
+#menu-icon.rotated {
+    transform: rotate(180deg); /* Rotates the icon when toggled */
+}
+
 /* nav not visible on small and md devices */
 #links {
     position: absolute;
