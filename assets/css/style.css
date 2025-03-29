@@ -63,7 +63,6 @@
 button {
     background-color: transparent;
     border: 0;
-    align-items: end;
 }
 
 .dropdown-menu {
@@ -207,7 +206,7 @@ nav a,
 button,
 .dropdown-menu a,
 footer * a {
-    padding: 0.5rem;
+    padding: 0 0.5rem 0 0.5rem;
     text-decoration: none;
     color: var(--secondary-color);
     font-family: var(--secondary-font);
