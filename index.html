@@ -37,13 +37,24 @@
       <!-- Nav Section -->
       <nav id="links">
         <!-- to toggle btw. classes -->
-        <ul class="static">
-          <li><a class="about-link text-nowrap" href="about.html">Über mich</a></li>
-          <li><a class="coaching-link" href="coaching.html">Profil</a></li>
-          <li><a class="booking-link" href="reflextionen.html">Reflexionen</a></li>
-          <li><a class="contact-link" href="contact.html">Kontakt</a></li>
+        <ul class="static d-flex align-items-end">
+            <li><a class="about-link text-nowrap" href="about.html">Über mich</a></li>
+            <div class="dropdown contact-link">
+                <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   PROFIL
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Kurltur Aktivistin</a></li>
+                  <li><a class="dropdown-item" href="#">Pianistin</a></li>
+                  <li><a class="dropdown-item" href="#">Sängerin</a></li>
+                  <li><a class="dropdown-item" href="#">Sprächerin</a></li>
+                  <li><a class="dropdown-item" href="#">Coach</a></li>
+                </ul>
+             </div>
+            <li><a class="booking-link" href="reflextionen.html">Reflexionen</a></li>
+            <li><a class="contact-link" href="contact.html">Kontakt</a></li>
         </ul>
-      </nav>
+    </nav>
 
       <!-- Toggle Button -->
       <div class="toggle" id="toggle-menubar-btn">
