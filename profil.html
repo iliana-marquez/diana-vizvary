@@ -30,18 +30,28 @@
             <!-- Logo / Home Link -->
             <div class="static-navbar">
                 <a href="index.html">
-                    <img id="logo" src="assets/images/logo.png" alt="Diana Vizvary">
+                    <img class="scrolled" id="logo" src="assets/images/logo.png" alt="Diana Vizvary">
                 </a>
             </div>
 
             <!-- Nav Section -->
             <nav id="links">
                 <!-- to toggle btw. classes -->
-                <ul class="static">
-                    <li><a class="about-link" href="about.html">About</a></li>
-                    <li><a class="coaching-link coaching-link-active" href="coaching.html">Coaching</a></li>
-                    <li><a class="booking-link" href="booking.html">Book</a></li>
-                    <li><a class="contact-link" href="contact.html">Contact</a></li>
+                <ul class="static d-flex align-items-end">
+                    <li><a class="about-link text-nowrap" href="about.html">Über mich</a></li>
+                    <div class="dropdown contact-link">
+                        <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           PROFIL
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Kurltur Aktivistin</a></li>
+                          <li><a class="dropdown-item" href="#">Pianistin</a></li>
+                          <li><a class="dropdown-item" href="#">Sängerin</a></li>
+                          <li><a class="dropdown-item" href="#">Sprächerin</a></li>
+                        </ul>
+                     </div>
+                    <li><a class="booking-link" href="reflextionen.html">Reflexionen</a></li>
+                    <li><a class="contact-link" href="contact.html">Kontakt</a></li>
                 </ul>
             </nav>
 

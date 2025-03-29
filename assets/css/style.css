@@ -59,7 +59,22 @@
     color: var(--secondary-color);
 }
 
+/* Bootstrap Dropdown */
+button {
+    background-color: transparent;
+    border: 0;
+    align-items: end;
+}
 
+.dropdown-menu {
+    background-color: var(--primary-color);
+    border-radius: 0;
+    
+}
+
+.dropdown-menu  a {
+    text-align: center;
+}
 
 /* Buttons Sytle */
 .custom-btn {
@@ -189,6 +204,8 @@ nav li {
 }
 
 nav a,
+button,
+.dropdown-menu a,
 footer * a {
     padding: 0.5rem;
     text-decoration: none;
