@@ -380,32 +380,33 @@ p {
 
 #carreer-foto-2 {
     background: url('../images/baby-diana.jpg') no-repeat top center / cover;
-    height: 500px;
+    min-height: 500px;
 }
 
 #carreer-foto-3 {
     background: url('../images/funf-jahrige-diana.jpg') no-repeat top center / cover;
-    height: 500px;
+    min-height: 500px;
 }
 
 #carreer-foto-4 {
     background: url('../images/diana-piano-orchestra.jpg') no-repeat top center / cover;
-    height: 500px;
+    min-height: 500px;
+    max-height: auto;
 }
 
 #carreer-foto-5 {
     background: url('../images/uber-diana-4.jpg') no-repeat top center / cover;
-    height: 500px;
+    min-height: 500px;
 }
 
 #carreer-foto-6 {
     background: url('../images/uber-diana-3.jpg') no-repeat top center / cover;
-    height: 500px;
+    min-height: 500px;
 }
 
 #carreer-foto-7 {
     background: url('../images/ueber-diana-5.jpg') no-repeat top center / cover;
-    height: 500px;
+    min-height: 500px;
 }
 
 /* Relevant-Info Section */
