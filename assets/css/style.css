@@ -410,8 +410,8 @@ p {
 }
 
 #carreer-foto-8 {
-    background: url('../images/dianas-vater.jpg') no-repeat top center / cover;
-    min-height: 500px;
+    background: url('../images/dianas-vater.jpg') no-repeat left center / cover;
+    min-height: 300px;
 }
 
 /* Relevant-Info Section */
